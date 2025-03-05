@@ -5,10 +5,11 @@ local hl = vim.api.nvim_set_hl
 local theme = {}
 
 theme.set_highlights = function()
+  vim.opt.background = "dark"
 
   -- base
   -- hl(0, "Normal", { fg = c.B4T_B23, bg = c.B4T_b2,  })
-  hl(0, "Normal", { fg = c.B4T_B23, bg = 'NONE',  })
+  hl(0, "Normal", { fg = c.B4T_B23, bg = '#000000',  })
   hl(0, "NormalNC", { fg = c.B4T_B23, bg = c.B4T_b1,  })
   hl(0, "NormalSB", { fg = c.B4T_B23, bg = c.B4T_b2,  })
   hl(0, "NormalFloat", { fg = c.B4T_B23, bg = c.B4T_b2,  })

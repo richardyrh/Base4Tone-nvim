@@ -1,6 +1,5 @@
 
 local c = require('base4tone_classic_a_light.palette')
-
 local hl = vim.api.nvim_set_hl
 local theme = {}
 
@@ -71,7 +70,7 @@ theme.set_highlights = function()
   hl(0, "TabLineFill", { fg = c.B4T_b13, bg = c.B4T_b21 })
   hl(0, "TabLineSel", { fg = c.B4T_B10, bg = c.B4T_b21 })
   hl(0, "Title", { fg = c.B4T_C7, bg = 'NONE' })
-  hl(0, "Visual", { fg = 'NONE', bg = c.B4T_d21 })
+  hl(0, "Visual", { fg = 'NONE', bg = c.B4T_d18 })
   hl(0, "VisualNOS", { fg = c.B4T_D7, bg = 'NONE' })
   hl(0, "WarningMsg", { fg = c.B4T_D7, bg = 'NONE' })
   hl(0, "Whitespace", { fg = c.B4T_b18, bg = 'NONE', italic=true, })
